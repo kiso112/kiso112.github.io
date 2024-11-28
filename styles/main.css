@@ -1,18 +1,18 @@
 /* 鱼塘固定宽度 */
-canvas:not(#ribbon-canvas), #web_bg {
-    margin-bottom: -0.5rem;
-    display: block;
-    width: 100%;
-    height: 160px
-}
+/*canvas:not(#ribbon-canvas), #web_bg {*/
+/*    margin-bottom: -0.5rem;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 160px*/
+/*}*/
 
 /* 鱼塘渐变色 */
 body{
     overflow-x: hidden;
 }
 #footer {
-    height:200px;
-    background: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+    height:1600px;
+    background: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
 }
 #footer #footer-wrap,
 #footer-wrap a {
@@ -94,10 +94,8 @@ rgba(24,40,72,.2));
 } */
 /*主页文章预览页面*/
 #recent-posts>.recent-post-item{
-    background: linear-gradient(-45deg, rgba(225, 255, 252, 0.8),
-    rgba(255, 225, 229, 0.9),
-    rgba(225, 255, 225, 0.9),
-    rgba(253, 255, 225, 0.8));
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+
 }
 [data-theme=dark] #recent-posts>.recent-post-item{
     background: linear-gradient(-45deg, rgba(24,40,72,.2),
@@ -108,10 +106,8 @@ rgba(24,40,72,.2));
 
 /*分类页面*/
 .layout>#page {
-    background: linear-gradient(-45deg, rgba(225,235,255,.8),
-    rgba(225,235,255,.9),
-    rgba(225,235,255,.9),
-    rgba(225,235,255,.8));
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+
 }
 [data-theme=dark] .layout>#page {
     background: linear-gradient(-45deg, rgba(24,40,72,.2),
@@ -122,10 +118,8 @@ rgba(24,40,72,.2));
 
 /*时间轴页面*/
 .layout>#archive {
-    background: linear-gradient(-45deg, rgba(225,235,255,.8),
-    rgba(225,235,255,.9),
-    rgba(225,235,255,.9),
-    rgba(225,235,255,.8));
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+
 }
 [data-theme=dark] .layout>#archive {
     background: linear-gradient(-45deg, rgba(24,40,72,.2),
