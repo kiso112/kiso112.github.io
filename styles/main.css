@@ -12,7 +12,7 @@ body{
 }
 #footer {
     height:160px;
-    background: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
+    background: linear-gradient(to top, #df89b5 0%, #bfd9fe 100%);
 }
 #footer #footer-wrap,
 #footer-wrap a {
