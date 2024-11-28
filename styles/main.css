@@ -11,7 +11,7 @@ body{
     overflow-x: hidden;
 }
 #footer {
-    height:1600px;
+    height:160px;
     background: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
 }
 #footer #footer-wrap,
